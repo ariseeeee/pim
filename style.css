@@ -1,1 +1,20 @@
-
+/*Parte de cima do site*/
+table, td{
+    border: 1px solid black;
+}
+#NavLogo{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#NavInicio{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#NavServicos{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#NavConta{
+    padding-right: 50px;
+    padding-left: 50px;
+}
