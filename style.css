@@ -5,15 +5,22 @@ body{
 table, td{
     border: 1px solid black;
 }
-nav{
-    width: 100%;
-}
 .divNav{
     display: flex;
-}
-.divNav div{
-    flex: 1;
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
 }
+.navServico{
+    flex: 2;
+}
+.navLogo{
+    flex: 2;
+}
+.navConta{
+    flex: 1;
+    margin-left: 120px;
+}
+
+
+
