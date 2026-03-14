@@ -21,6 +21,19 @@ table, td{
     flex: 1;
     margin-left: 120px;
 }
-
+/* Rodapé*/
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.esquerda{
+    color: green;
+}
+.centro{
+    color: blue;
+}
+.direita{
+    color: brown;
+}
 
 
