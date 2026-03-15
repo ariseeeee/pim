@@ -21,10 +21,45 @@ table, td{
     flex: 1;
     margin-left: 120px;
 }
+
+/*Corpo do site*/
+.Banner{
+    height: 400px;
+    width: 100%;
+}
+
+.divCarrosel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.divCarrosel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.carroselSlogan{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
 /* Rodapé*/
+
 .rodape{
     display: flex;
     justify-content: space-between;
+    background: gray ;
+    height: 200px
 }
 .esquerda{
     color: green;
@@ -35,5 +70,3 @@ table, td{
 .direita{
     color: brown;
 }
-
-
